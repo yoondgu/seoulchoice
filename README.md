@@ -41,6 +41,7 @@
   * id: nc
   *  pwd: zxcv1234
   * 테이블, 시퀀스 생성 및 필수 데이터 임포트:  
+  db/seoulchoice_ddl.sql, db/seoulchoice_essential_data.sql 실행할 것 (데이터 임포트는 공유드라이브의 엑셀 임포트해도 됨)
 
 ## 👥 담당 기능 Team Roles
 - 김주완 : 관리자 기능
