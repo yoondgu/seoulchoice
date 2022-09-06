@@ -69,6 +69,7 @@ public class AccommodationController {
 		// 해당 id를 가진 숙소 상세정보와 리뷰 정보, 찜하기 여부를 전달한다.
 		// 숙소의 객실 정보는 restController에서 제공한다.
 		
+		// TODO DTO로 객체 하나에 모든 정보 담아서 모델로 전달하기?
 		// 숙소 정보
 		model.addAttribute("detail", accommodationService.getAccommodationDetailById(accoId));
 		// 객실정원 옵션 정보

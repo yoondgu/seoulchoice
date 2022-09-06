@@ -42,6 +42,7 @@ public class AccommodationRestController {
 	// 검색 조건(날짜)에 맞는 객실 리스트 반환
 	@GetMapping(path = "/rooms")
 	public List<AccommodationRoom> rooms(RoomCriteria roomCriteria) {
+		// TODO pagination 정보 같이 제공하기
 		return accommodationService.getRoomDetailsByAccoIdwithPagination(roomCriteria);
 	}
 	
